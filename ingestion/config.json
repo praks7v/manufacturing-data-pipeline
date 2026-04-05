@@ -1,0 +1,4 @@
+{
+  "google_sheet_url": "https://docs.google.com/spreadsheets/d/1ESGEtTMpBH8TOfBTxjRQ9tZ0TLjE1ATufQl448LHQEU/export?format=csv&gid=0",
+  "db_connection": "postgresql://user:password@localhost:5432/manufacturing"
+}
