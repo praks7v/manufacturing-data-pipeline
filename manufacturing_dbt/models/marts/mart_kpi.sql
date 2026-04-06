@@ -13,20 +13,19 @@ unpivoted AS (
     FROM base
     UNPIVOT (
         defect_count FOR defect_type IN (
-            "B-QUALITY",
-            BEADING,
-            CUTTING,
-            DENT,
-            "INSIDE SOS",
-            LINING,
-            "LOOSE CAP",
-            "NIPPLE NOT FITTING",
-            "PLAIN BOTTOM",
-            REPLATING,
-            REPOLISH,
-            SCRAP,
-            SCRAP,
-            "TIGHT CAP"
+            b_quality,
+            beading,
+            cutting,
+            dent,
+            inside_sos,
+            lining,
+            loose_cap,
+            nipple_not_fitting,
+            plain_bottom,
+            replating,
+            repolish,
+            scrap,
+            tight_cap
         )
     )
 )
