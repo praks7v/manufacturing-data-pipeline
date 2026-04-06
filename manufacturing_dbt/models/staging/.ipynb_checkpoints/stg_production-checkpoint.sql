@@ -20,4 +20,4 @@ SELECT
     SCRAP,
     "TIGHT CAP"
 
-FROM raw_production
+FROM {{ source('manufacturing', 'raw_production') }}

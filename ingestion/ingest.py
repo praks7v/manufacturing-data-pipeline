@@ -45,7 +45,7 @@ from google.cloud import bigquery
 # hardcoded credentials -------------------------
 from google.oauth2 import service_account
 credentials = service_account.Credentials.from_service_account_file(
-    "C:/Users/Praks 7v/Projects/manufacturing-data-pipeline/data-analysis-490514-f5dff2c9139f.json"
+    "C:/Users/Praks 7v/Projects/manufacturing-data-pipeline/ingestion/data-analysis-490514-f5dff2c9139f.json"
 )
 # -----------------------------------------------
 client = bigquery.Client(

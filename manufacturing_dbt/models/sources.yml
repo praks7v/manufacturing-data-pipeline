@@ -2,5 +2,8 @@ version: 2
 
 sources:
   - name: manufacturing
+    database: data-analysis-490514
+    schema: manufacturing_pipeline
+
     tables:
       - name: raw_production
